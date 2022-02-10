@@ -6,12 +6,14 @@ products
 
 @section('main_content')
     <div class="jumbo">
-        
+
     </div>
    <section>
        
        <div class="comics-container">
+           @include('components.comics-cards')
 
-       </div>
+        </div>
+
    </section>
 @endsection

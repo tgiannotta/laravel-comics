@@ -52,7 +52,6 @@ li a {
 
 main {
   background-color: #1c1c1c;
-  height: 700px;
 }
 
 .jumbo {
@@ -67,6 +66,16 @@ section {
 .comics-container {
   width: 70%;
   margin: auto;
-  background-color: orange;
-  height: 150px;
+}
+
+.comics {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.single-comic {
+  width: 16.6666666667%;
+  color: white;
+  text-transform: uppercase;
+  padding-bottom: 50px;
 }
