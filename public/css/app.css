@@ -1,7 +1,52 @@
 * {
-  color: orange;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-container {
+  width: 80%;
+  margin: auto;
+}
+
+.sites-container {
+  width: 100%;
+  background-color: #0282f9;
+}
+
+.sites {
+  height: 30px;
+  width: 80%;
+  margin: auto;
+  text-align: right;
+  color: white;
+}
+
+.nav {
+  width: 80%;
+  margin: auto;
+  height: 100px;
+  line-height: 100px;
+}
+
+.nav ul {
+  display: flex;
+}
+
+li {
+  padding-right: 30px;
+}
+
+li a {
+  text-transform: uppercase;
 }
 

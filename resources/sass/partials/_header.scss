@@ -1,0 +1,38 @@
+.header-container{
+    width: 80%;
+    margin: auto;
+
+}
+
+.sites-container{
+    width: 100%;
+    background-color: $colore_primario;
+
+}
+
+.sites{
+    height: 30px;
+    width: 80%;
+    margin: auto;
+    text-align: right;
+    color: $colore_secondario;
+}
+.nav{
+    width: 80%;
+    margin: auto;
+    height: 100px;
+    line-height: 100px;
+}
+.nav ul{
+    display: flex;
+
+}
+li{
+    padding-right: 30px;
+    
+
+}
+
+li a{
+    text-transform: uppercase;
+}
