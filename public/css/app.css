@@ -50,3 +50,23 @@ li a {
   text-transform: uppercase;
 }
 
+main {
+  background-color: #1c1c1c;
+  height: 700px;
+}
+
+.jumbo {
+  background-image: url("../images/jumbotron.jpg");
+  height: 400px;
+}
+
+section {
+  padding-top: 50px;
+}
+
+.comics-container {
+  width: 70%;
+  margin: auto;
+  background-color: orange;
+  height: 150px;
+}

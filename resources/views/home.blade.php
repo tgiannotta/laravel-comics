@@ -5,7 +5,13 @@ products
 @endsection
 
 @section('main_content')
-    <h1>
-       {{--  {{ dd($comics)}} --}}
-    </h1>
+    <div class="jumbo">
+        
+    </div>
+   <section>
+       
+       <div class="comics-container">
+
+       </div>
+   </section>
 @endsection
