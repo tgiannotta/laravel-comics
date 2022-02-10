@@ -6,6 +6,6 @@ products
 
 @section('main_content')
     <h1>
-        Prova MAin
+       {{--  {{ dd($comics)}} --}}
     </h1>
 @endsection
