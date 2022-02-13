@@ -4,6 +4,10 @@
 products
 @endsection
 
+@section('main_classes')
+    black
+@endsection
+
 @section('main_content')
     <div class="jumbo">
 

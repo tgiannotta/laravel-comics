@@ -25,3 +25,25 @@ Route::get('/', function () {
     return view('home', $data);
 
 });
+
+Route::get('/comics', function(){
+    return view('comics');
+});
+
+Route::get('/single_comic/{id}', function($id){
+    $comics_array = config('comics');
+    $single_comic = [];
+
+    foreach($comics_array as $comic){
+        if($comic['id'] == $id){
+            $single_comic = $comic;
+        }
+    }
+    $data = [
+        'single_comic' => $single_comic
+    ];
+   
+
+    return view('single_comic', $data);
+});
+
