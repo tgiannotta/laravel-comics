@@ -17,13 +17,16 @@
 <div class="galleria ">
     <img src="{{ $single_comic['thumb'] }}" alt="Prova image">
     <div id="tipologia">{{ $single_comic['type'] }}</div>
-    <a href="#" id="back_to_gallery"> View gallery </a>
+    {{-- Route per la homepage --}}
+    <a href="{{ route('home') }}" id="back_to_gallery"> View gallery </a>
 </div>
 {{-- SINGLE COMIC DETAILS --}}
     <div class="single-comic-container">        
         <section>
             {{-- Titolo --}}
-            <h2>{{ $single_comic['title'] }}</h2>
+            
+                <h2>{{ $single_comic['title'] }}</h2>
+           
             {{-- Tabella prezzo --}}
             <div class="tabella">
                 <div class="prezzo">

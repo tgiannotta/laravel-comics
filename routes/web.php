@@ -24,11 +24,11 @@ Route::get('/', function () {
 
     return view('home', $data);
 
-});
+})->name('home');
 
 Route::get('/comics', function(){
     return view('comics');
-});
+})->name('comics');
 
 Route::get('/single_comic/{id}', function($id){
     $comics_array = config('comics');
@@ -45,5 +45,5 @@ Route::get('/single_comic/{id}', function($id){
    
 
     return view('single_comic', $data);
-});
+})->name('fumetto_singolo');
 
